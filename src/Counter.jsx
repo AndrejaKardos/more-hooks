@@ -1,4 +1,4 @@
-import React, { useState, useReducer } from 'react'
+import React, { useReducer } from 'react'
 
 const ACTIONS = {
     INCREMENT: 'increment',
@@ -29,7 +29,6 @@ export default function Counter() {
 
     return (
         <>
-        <div></div>
             <button onClick={decrease}>-</button>
             <span>{state.count}</span>
             <button onClick={increase}>+</button>
